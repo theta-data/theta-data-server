@@ -5,6 +5,6 @@ async function bootstrap() {
   // const app = await NestFactory.create(AppModule);
   // await app.listen(3000);
   const thetaData = require('theta-data');
-  thetaData.analyse();
+  await thetaData.serve();
 }
 bootstrap();
