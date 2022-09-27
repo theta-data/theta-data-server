@@ -26,7 +26,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: install and test
         run: |
-          npm ci
+          pnpm install
 
       #      # Runs a single command using the runners shell
       #      - name: install
@@ -35,7 +35,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: build
         run: |
-          npm run build
+          pnpm run build
           pm2 stop all
           pm2 delete ecosystem.config.js
           pm2 start ecosystem.config.js --env test
