@@ -24,7 +24,7 @@ specifiers:
   rxjs: ^7.2.0
   source-map-support: ^0.5.20
   supertest: ^6.1.3
-  theta-data: 0.1.56-beta.06
+  theta-data: 0.1.56-beta.08
   ts-jest: 28.0.5
   ts-loader: ^9.2.3
   ts-node: ^10.0.0
@@ -39,7 +39,7 @@ dependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 7.5.7
-  theta-data: 0.1.56-beta.6_ts-node@10.9.1
+  theta-data: 0.1.56-beta.8_ts-node@10.9.1
 
 devDependencies:
   '@nestjs/cli': 9.1.3
@@ -1738,7 +1738,7 @@ packages:
       '@nestjs/core': 8.4.7_rvglusfgyoseqzubhh6546rvkq
       reflect-metadata: 0.1.13
       rxjs: 7.5.7
-      typeorm: 0.3.9_tgs2o4635sscdy3g32agev5kdy
+      typeorm: 0.3.9_aetzkg2tycjglobn3ma6k226ce
       uuid: 8.3.2
     dev: false
 
@@ -6580,8 +6580,8 @@ packages:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: true
 
-  /sqlite3/5.1.1:
-    resolution: {integrity: sha512-mMinkrQr/LKJqFiFF+AF7imPSzRCCpTCreusZO3D/ssJHVjZOrbu2Caz+zPH5KTmGGXBxXMGSRDssL+44CLxvg==}
+  /sqlite3/5.1.2:
+    resolution: {integrity: sha512-D0Reg6pRWAFXFUnZKsszCI67tthFD8fGPewRddDCX6w4cYwz3MbvuwRICbL+YQjBAh9zbw+lJ/V9oC8nG5j6eg==}
     requiresBuild: true
     peerDependenciesMeta:
       node-gyp:
@@ -6899,8 +6899,8 @@ packages:
       any-promise: 1.3.0
     dev: false
 
-  /theta-data/0.1.56-beta.6_ts-node@10.9.1:
-    resolution: {integrity: sha512-7YVPKX9+Y60IZELJn4eamL5rd9H+55r014/8UFZKXjg9jIhVsjPhHq9xp66WIlVWeyqRPBa0j1StegRlFABCGw==}
+  /theta-data/0.1.56-beta.8_ts-node@10.9.1:
+    resolution: {integrity: sha512-1waA1B96/BjffLD83XB9GiyD/7Wh5BcbgJ7esutHAxhwbiqstGA7LKXR5IsMNCF0UFYuEKfhuT1XGbIN0n6TdQ==}
     dependencies:
       '@nestjs/apollo': 10.1.3_4x5he4jrangmg5lg46eyt7ziui
       '@nestjs/common': 8.4.7_b2osgnijw3dly7bf5yfvzyvl64
@@ -6931,9 +6931,9 @@ packages:
       rimraf: 3.0.2
       rxjs: 7.5.7
       solc: 0.8.17
-      sqlite3: 5.1.1
+      sqlite3: 5.1.2
       theta-ts-sdk: 0.2.79
-      typeorm: 0.3.9_tgs2o4635sscdy3g32agev5kdy
+      typeorm: 0.3.9_aetzkg2tycjglobn3ma6k226ce
     transitivePeerDependencies:
       - '@apollo/gateway'
       - '@apollo/subgraph'
@@ -7193,7 +7193,7 @@ packages:
   /typedarray/0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  /typeorm/0.3.9_tgs2o4635sscdy3g32agev5kdy:
+  /typeorm/0.3.9_aetzkg2tycjglobn3ma6k226ce:
     resolution: {integrity: sha512-xNcE44D4hn74n7pjuMog9hRgep+BiO3IBpjEaQZ8fb56zsDz7xHT1GAeWwmGuuU+4nDEELp2mIqgSCR+zxR7Jw==}
     engines: {node: '>= 12.9.0'}
     hasBin: true
@@ -7266,7 +7266,7 @@ packages:
       mysql2: 2.3.3
       reflect-metadata: 0.1.13
       sha.js: 2.4.11
-      sqlite3: 5.1.1
+      sqlite3: 5.1.2
       ts-node: 10.9.1_k3mpxffmav3otnvbt727n2weai
       tslib: 2.4.0
       uuid: 8.3.2
