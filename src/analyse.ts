@@ -1,2 +1,2 @@
 const thetaData = require('theta-data');
-thetaData.analyse();
+thetaData.analyse(['nft']);
