@@ -32,7 +32,7 @@
   ],
   "NFT": {
     "ANALYSE_NUMBER": 10000,
-    "ANALYSE_INTERVAL": 300000,
+    "ANALYSE_INTERVAL": 180000,
     "DL_ALL_NFT_IMG": false,
     "STATIC_PATH": "/home/ubuntu/theta-data/static/nft_img/",
     "MONITOR_PATH": "/home/ubuntu/theta-data/monitor/nft/"
