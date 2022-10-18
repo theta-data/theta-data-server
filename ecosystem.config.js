@@ -33,7 +33,7 @@ module.exports = {
       exec_mode: 'cluster',
       autorestart: false,
       watch: false,
-      max_memory_restart: '2G',
+      max_memory_restart: '4G',
       env_test: {
         NODE_ENV: 'test',
         autorestart: true,
@@ -54,7 +54,7 @@ module.exports = {
       exec_mode: 'cluster',
       autorestart: false,
       watch: false,
-      max_memory_restart: '2G',
+      max_memory_restart: '4G',
       env_test: {
         NODE_ENV: 'test',
         autorestart: true,
