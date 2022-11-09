@@ -76,7 +76,7 @@
   },
   "WALLET_TX_HISTORY": {
     "START_HEIGHT": 8000000,
-    "ANALYSE_NUMBER": 100,
+    "ANALYSE_NUMBER": 10,
     "ANALYSE_INTERVAL": 60000,
     "MONITOR_PATH": "/data/theta-data/monitor/wallet-tx-history/"
   }
