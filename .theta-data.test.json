@@ -79,5 +79,17 @@
     "ANALYSE_NUMBER": 5000,
     "ANALYSE_INTERVAL": 200,
     "MONITOR_PATH": "/home/ubuntu/theta-data/monitor/wallet-tx-history/"
+  },
+  "WALLET_SEND_HISTORY": {
+    "START_HEIGHT": 8000000,
+    "ANALYSE_NUMBER": 50,
+    "ANALYSE_INTERVAL": 1000,
+    "MONITOR_PATH": "/home/ubuntu/theta-data/monitor/wallet-send-history/"
+  },
+  "WALLET_DP_WD_HISTORY": {
+    "START_HEIGHT": 8000000,
+    "ANALYSE_NUMBER": 50,
+    "ANALYSE_INTERVAL": 1000,
+    "MONITOR_PATH": "/home/ubuntu/theta-data/monitor/wallet-dp-wd-history/"
   }
 }
