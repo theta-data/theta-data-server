@@ -24,7 +24,7 @@ specifiers:
   rxjs: ^7.2.0
   source-map-support: ^0.5.20
   supertest: ^6.1.3
-  theta-data: 0.1.62-beta.11
+  theta-data: 0.1.62-beta.12
   ts-jest: 28.0.5
   ts-loader: ^9.2.3
   ts-node: ^10.0.0
@@ -39,7 +39,7 @@ dependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 7.5.7
-  theta-data: 0.1.62-beta.11_ts-node@10.9.1
+  theta-data: 0.1.62-beta.12_ts-node@10.9.1
 
 devDependencies:
   '@nestjs/cli': 9.1.3
@@ -6954,8 +6954,8 @@ packages:
       any-promise: 1.3.0
     dev: false
 
-  /theta-data/0.1.62-beta.11_ts-node@10.9.1:
-    resolution: {integrity: sha512-AnD576gmVkDCE0tF+5O04qJ7xlkaUZCgciVSeaAo4Q4g8eNA2Uu85/hotCSHooj8ZkBBjyhqnE5Y4hQ0oRCPxw==}
+  /theta-data/0.1.62-beta.12_ts-node@10.9.1:
+    resolution: {integrity: sha512-BCoYBkHK5h/rhJVPFVB0kLkHdbL877Rh0laRXQIPUk9/QT+vv7y9F9vGVkeWSb3pHxEiwo217RM2jfrxbKCP3w==}
     dependencies:
       '@nestjs/apollo': 10.1.6_kp3ixal6ronqgdd3b2wduxtn6q
       '@nestjs/common': 8.4.7_b2osgnijw3dly7bf5yfvzyvl64
