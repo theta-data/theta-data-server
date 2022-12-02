@@ -24,7 +24,7 @@ specifiers:
   rxjs: ^7.2.0
   source-map-support: ^0.5.20
   supertest: ^6.1.3
-  theta-data: 0.1.62-beta.26
+  theta-data: 0.1.62-beta.27
   ts-jest: 28.0.5
   ts-loader: ^9.2.3
   ts-node: ^10.0.0
@@ -39,7 +39,7 @@ dependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 7.5.7
-  theta-data: 0.1.62-beta.26_ts-node@10.9.1
+  theta-data: 0.1.62-beta.27_ts-node@10.9.1
 
 devDependencies:
   '@nestjs/cli': 9.1.5
@@ -3445,8 +3445,8 @@ packages:
     dependencies:
       ms: 2.1.2
 
-  /decode-uri-component/0.2.0:
-    resolution: {integrity: sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==}
+  /decode-uri-component/0.2.2:
+    resolution: {integrity: sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==}
     engines: {node: '>=0.10'}
     dev: false
 
@@ -6256,7 +6256,7 @@ packages:
     resolution: {integrity: sha512-gjWOsm2SoGlgLEdAGt7a6slVOk9mGiXmPFMqrEhLQ68rhQuBnpfs3+EmlvqKyxnCo9/PPlF+9MtY02S1aFg+Jw==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      decode-uri-component: 0.2.0
+      decode-uri-component: 0.2.2
       object-assign: 4.1.1
       strict-uri-encode: 1.1.0
     dev: false
@@ -7032,8 +7032,8 @@ packages:
       any-promise: 1.3.0
     dev: false
 
-  /theta-data/0.1.62-beta.26_ts-node@10.9.1:
-    resolution: {integrity: sha512-pBDyuyQ8xcRzyAqhxAdPbUXYc4g46gC4oyIp+GAhZhkg3XQFhYuG+6pMsj8JEZlsQSppczClRt+0SbzKMTAfyg==}
+  /theta-data/0.1.62-beta.27_ts-node@10.9.1:
+    resolution: {integrity: sha512-nsVHy3bOWy8izcg9qXHzFpXxxpBf2iOt597XIMcdMAgMOXlS38FOeDnjFLg7t2E6OGLNH+NJBOblEoV+58K74Q==}
     dependencies:
       '@nestjs/apollo': 10.1.6_kp3ixal6ronqgdd3b2wduxtn6q
       '@nestjs/common': 8.4.7_b2osgnijw3dly7bf5yfvzyvl64
