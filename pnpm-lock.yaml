@@ -24,7 +24,7 @@ specifiers:
   rxjs: ^7.2.0
   source-map-support: ^0.5.20
   supertest: ^6.1.3
-  theta-data: 0.1.63-beta.5
+  theta-data: 0.1.63-beta.9
   ts-jest: 28.0.5
   ts-loader: ^9.2.3
   ts-node: ^10.0.0
@@ -39,7 +39,7 @@ dependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 7.5.7
-  theta-data: 0.1.63-beta.5_ts-node@10.9.1
+  theta-data: 0.1.63-beta.9_ts-node@10.9.1
 
 devDependencies:
   '@nestjs/cli': 9.1.5
@@ -2775,6 +2775,16 @@ packages:
       - debug
     dev: false
 
+  /axios/1.2.1:
+    resolution: {integrity: sha512-I88cFiGu9ryt/tfVEi4kX2SITsvDddTajXTOFmt2uK1ZVA8LytjtdeyefdQWEf5PU8w+4SSJDoYnggflB5tW4A==}
+    dependencies:
+      follow-redirects: 1.15.2
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
   /babel-jest/28.1.3_@babel+core@7.20.2:
     resolution: {integrity: sha512-epUaPOEWMk3cWX0M/sPvCHHCe9fMFAa/9hXEgKP8nFfNl/jlGkE9ucq9NqkZGXLDduCJYS0UvSlPUwC0S+rH6Q==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
@@ -3390,14 +3400,6 @@ packages:
     hasBin: true
     dependencies:
       cross-spawn: 7.0.3
-    dev: false
-
-  /cross-fetch/3.1.5:
-    resolution: {integrity: sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==}
-    dependencies:
-      node-fetch: 2.6.7
-    transitivePeerDependencies:
-      - encoding
     dev: false
 
   /cross-spawn/7.0.3:
@@ -7043,8 +7045,8 @@ packages:
       any-promise: 1.3.0
     dev: false
 
-  /theta-data/0.1.63-beta.5_ts-node@10.9.1:
-    resolution: {integrity: sha512-VdNmFZSQHr6p2K8umC0avhlcWMAHSkFwAn6trIe4ouIP3m1YkWmdUroo2oFGYwDaqR2erMnO5/pwGB+dOjvvkg==}
+  /theta-data/0.1.63-beta.9_ts-node@10.9.1:
+    resolution: {integrity: sha512-K1R6SiUm4lcKE1mwDT68c2bFR/54PFn0WPxlQUcRMRrFGL1HE6JMMyZTVvMVaNgHOabo+V5R/89XoVcZBfZlKQ==}
     dependencies:
       '@nestjs/apollo': 10.1.7_lg6m6fb43boylkqgo4ge5hlwzu
       '@nestjs/common': 8.4.7_b2osgnijw3dly7bf5yfvzyvl64
@@ -7076,7 +7078,7 @@ packages:
       rxjs: 7.5.7
       solc: 0.8.17
       sqlite3: 5.1.4
-      theta-ts-sdk: 0.2.79
+      theta-ts-sdk: 0.2.80
       typeorm: 0.3.11_a75q75clxoqu4mqv6lpyhcmfla
     transitivePeerDependencies:
       - '@apollo/gateway'
@@ -7111,19 +7113,18 @@ packages:
       - utf-8-validate
     dev: false
 
-  /theta-ts-sdk/0.2.79:
-    resolution: {integrity: sha512-zKX5JT9ln8t1Xc3N6GZNgNlYFF8Yt84MziqXuGmow/9XkP0HS6nx+6E412X+FulRkYg9f2d2TeS5gjY8EJcOvQ==}
+  /theta-ts-sdk/0.2.80:
+    resolution: {integrity: sha512-PGmGJNhUXfhlUb5g2S4pz7AOUf2UYVSzQtiHhUDIOLBQcYh9z/UsJ9mNXLkWH4LiG/JPgVMfHpDRDqYWWhGB4Q==}
     dependencies:
+      axios: 1.2.1
       bignumber: 1.1.0
       bignumber.js: 9.1.1
-      cross-fetch: 3.1.5
       eth-lib: 0.1.29
       lodash: 4.17.21
       prettier: 2.8.0
-      yarn: 1.22.19
     transitivePeerDependencies:
       - bufferutil
-      - encoding
+      - debug
       - supports-color
       - utf-8-validate
     dev: false
@@ -7825,13 +7826,6 @@ packages:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
-
-  /yarn/1.22.19:
-    resolution: {integrity: sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ==}
-    engines: {node: '>=4.0.0'}
-    hasBin: true
-    requiresBuild: true
-    dev: false
 
   /yn/3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
